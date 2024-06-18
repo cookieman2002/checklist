@@ -34,7 +34,7 @@ function App() {
       let y = 10; // Start position for the first line
       const lineHeight = 10; // Height of each line
       const pageHeight = doc.internal.pageSize.height; // Height of the page
-      const maxLinesPerPage = Math.floor(pageHeight / lineHeight) - 1; // Calculate maximum lines per page
+      // const maxLinesPerPage = Math.floor(pageHeight / lineHeight) - 1; // Calculate maximum lines per page
       
       items.forEach((item, index) => {
         if (y > pageHeight - lineHeight) { // If we exceed the page height, add a new page
